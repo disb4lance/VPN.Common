@@ -1,0 +1,12 @@
+/home/ivan/Рабочий стол/vpn/VPN.Common/bin/Debug/net6.0/VPN.Common.deps.json
+/home/ivan/Рабочий стол/vpn/VPN.Common/bin/Debug/net6.0/VPN.Common.dll
+/home/ivan/Рабочий стол/vpn/VPN.Common/bin/Debug/net6.0/VPN.Common.pdb
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/VPN.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/VPN.Common.AssemblyInfoInputs.cache
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/VPN.Common.AssemblyInfo.cs
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/VPN.Common.csproj.CoreCompileInputs.cache
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/VPN.Common.sourcelink.json
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/VPN.Common.dll
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/refint/VPN.Common.dll
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/VPN.Common.pdb
+/home/ivan/Рабочий стол/vpn/VPN.Common/obj/Debug/net6.0/ref/VPN.Common.dll

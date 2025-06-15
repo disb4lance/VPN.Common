@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CwILILVOAr3CakDROKsqhFjXsnDlRLuCLD21QqBNphBMqoT5mmGZcXmc+9BZpxWQlRvX8T9vPhpbBhJ9eW/qcw==",
+  "dgSpecHash": "HvVZI0KM8tx4akD4ibvDIgUWcVFUFwHJnTGM/gzsZPvBmePWgr70OtSTLNuLFuoFWvk54Sa3T2JBYFWFHSIQLw==",
   "success": true,
   "projectFilePath": "/home/ivan/Рабочий стол/vpn/VPN.Common/VPN.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/ivan/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/ivan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
