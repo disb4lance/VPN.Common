@@ -1,9 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+  <TargetFramework>net6.0</TargetFramework> <!-- Или другой .NET -->
+  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  <PackageId>Vpn.Common</PackageId>
+  <Version>1.0.0</Version>
+  <Authors>disb4lance</Authors>
+  <Company>disb4lanceCompany</Company>
+  <Description>Custom VPN protocol core classes and encryption</Description>
+  <PackageOutputPath>..\lockal</PackageOutputPath> <!-- куда сохранять пакет -->
+</PropertyGroup>
+
 
 </Project>
