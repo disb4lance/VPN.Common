@@ -1,4 +1,5 @@
 using System;
+using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
 using VpnProtocol.Exceptions;
@@ -7,11 +8,13 @@ namespace VpnProtocol
 {
     public abstract class VpnTunnel : IDisposable
     {
-        protected UdpClient UdpClient { get; private set; }
+        protected UdpClient UdpClient { get; set; }
         protected uint SessionId { get; set; }
         protected long PacketCounter { get; private set; }
         protected bool IsActive { get; private set; }
 
+        public event Action<byte[], IPEndPoint> PacketReceived;
+        
         protected VpnTunnel()
         {
             UdpClient = new UdpClient();
@@ -48,26 +51,23 @@ namespace VpnProtocol
         
         protected abstract void ReceiveLoop();
 
-        protected void HandleReceivedPacket(byte[] data)
+        protected void HandleReceivedPacket(byte[] data, IPEndPoint remoteEp)
         {
             try
             {
                 var vpnPacket = VpnSerializer.Deserialize(data);
                 
-                // Проверка сессии
                 if (vpnPacket.SessionId != SessionId)
                     throw new ProtocolException($"Invalid session ID: {vpnPacket.SessionId}");
                 
-                // Обработка IP-пакета
-                OnIpPacketReceived(vpnPacket.Payload);
+                // Вызываем событие вместо абстрактного метода
+                PacketReceived?.Invoke(vpnPacket.Payload, remoteEp);
             }
             catch (ProtocolException ex)
             {
                 Console.WriteLine($"Protocol error: {ex.Message}");
             }
         }
-
-        protected abstract void OnIpPacketReceived(byte[] ipPacket);
 
         public virtual void Dispose()
         {

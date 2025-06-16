@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/ivan/Рабочий стол/vpn/VPN.Common/VPN.Common.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "/home/ivan/Рабочий стол/vpn/VPN.Common/VPN.Common.csproj",
         "projectName": "Vpn.Common",

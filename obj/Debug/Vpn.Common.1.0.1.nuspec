@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Vpn.Common</id>
+    <version>1.0.1</version>
+    <authors>disb4lance</authors>
+    <description>Custom VPN protocol core classes and encryption</description>
+    <repository type="git" commit="9c2df65af97066d887a217209830917826cf6f6e" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/ivan/Рабочий стол/vpn/VPN.Common/bin/Debug/net6.0/VPN.Common.dll" target="lib/net6.0/VPN.Common.dll" />
+  </files>
+</package>
