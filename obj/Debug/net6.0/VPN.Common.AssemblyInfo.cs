@@ -13,11 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("disb4lanceCompany")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Custom VPN protocol core classes and encryption")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d259379c995181b0ffc10537a2388c7d8ffc4217")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+9c2df65af97066d887a217209830917826cf6f6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("VPN.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VPN.Common")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
